@@ -1,0 +1,73 @@
+:root{
+    --primary-color:black;
+    --div-color:#047857
+    ;
+
+}
+
+body{
+    background-color: var(--primary-color);
+    border: 0%;
+    margin:0% 0%;
+    padding:0% 30%;
+    color:black
+}
+
+.container{
+    text-align: center;
+    background-color:var(--div-color);
+    position: absolute;
+    margin-right: -90px;
+}
+
+.table, .no-of-notes{
+    margin: auto auto;
+    border:1px solid #064E3B;
+    border-collapse: collapse;
+    width:70vh;
+    height: 10vh;
+    padding: 0%;
+    margin-bottom: 10px;
+}
+.no-of-notes{
+    background-color: 
+    #10B981;
+}
+
+.bill-amt , .cash-given{
+    display: block;
+     padding: 3%;
+     font-size: x-large;
+}
+
+.input{
+     border: 2px solid #064E3B;
+     width:200px;
+     height: 30px;
+     border-radius: 24px;
+     transition: 0.5s;
+     background-color: #064E3B;
+}
+.input:hover{
+    width:240px;
+    
+}
+#check-button{
+    margin-top: 20px;
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-color: #064E3B;
+    border-radius: 24px;
+    border: 2px solid #064E3B;
+    transition: 0.5s;
+}
+#check-button:hover{
+    width:150px
+}
+
+.change{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 5.7px;
+}
